@@ -8,4 +8,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Lambda" Version="3.7.411.16" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.411.1" />
+  </ItemGroup>
+
 </Project>
